@@ -13,7 +13,7 @@ const Registration = () => {
   });
 
   const handleChange = (e) => {
-    const { name, value } = e.target; //destructuring {name, value}
+    const { name, value } = e.target;
     setFormData({
       ...formData,
       [name]: value,

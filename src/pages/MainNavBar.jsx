@@ -57,20 +57,21 @@ const MainNavBar = () => {
             </ul>
           </li>
         </ul>
-
-
       </div>
     </nav>
-    <Routes>
+
+<Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/registration" element={<Registration />} />
         <Route path="/admin-login" element={<AdminLogin />} />
         <Route path="/manager-login" element={<ManagerLogin />} />
         <Route path="/customer-login" element={<CustomerLogin />} />
-</Routes>
+      </Routes>
+
 
     </div>
+
   );
 };
 
